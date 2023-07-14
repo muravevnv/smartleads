@@ -1,0 +1,44 @@
+h1 {
+  font-size: 56px;
+  line-height: 60px;
+  letter-spacing: .1rem;
+  font-weight: 500;
+
+  @include media(md) {
+    font-size: 26px;
+    line-height: 37px;
+  }
+}
+
+h2 {
+  font-size: 42px;
+  line-height: 50px;
+  letter-spacing: .1rem;
+  font-weight: 400;
+
+  @include media(md) {
+    font-size: 23px;
+    line-height: 28px;
+  }
+}
+
+.text-page {
+  font-size: 20px;
+  line-height: 28px;
+  padding: 56px 0;
+
+  @include media(sm) {
+    padding: 24px 0;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  h1 {
+    margin-bottom: 40px;
+    color: #FFF;
+
+    @include media(sm) {
+      margin-bottom: 24px;
+    }
+  }
+}

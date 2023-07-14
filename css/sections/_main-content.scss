@@ -1,0 +1,18 @@
+.main-content {
+  padding: 30px 0;
+  background-color: #F6F7FB;
+  min-height: calc(100vh - 60px);
+  width: 100%;
+  margin-top: 60px;
+  padding-right: 15px;
+  padding-left: 255px;
+  transition: all 0.3s ease;
+
+  @include media(md) {
+    padding-left: 15px;
+  }
+
+  &.open {
+    padding-left: 73px;
+  }
+}

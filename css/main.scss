@@ -1,0 +1,29 @@
+// Конфиг
+
+@import 'config/variables';
+@import 'config/mixins';
+@import 'config/fonts';
+@import 'config/base';
+@import 'config/typography';
+@import 'config/form';
+
+// Компоненты
+
+@import 'components/btn';
+@import 'components/header';
+@import 'components/modal';
+@import 'components/sidebar';
+@import 'components/table';
+@import 'components/dropdown';
+@import 'components/nav';
+@import 'components/pagination';
+
+//Разделы
+
+@import 'sections/main-content';
+@import 'sections/stats';
+@import 'sections/auth';
+
+
+
+
