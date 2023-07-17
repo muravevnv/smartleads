@@ -11,14 +11,14 @@
   font-size: 1rem;
   line-height: 1.5;
   border-radius: 0.25rem;
-  background-color: $primary;
-  border: 1px solid $primary;
+  background-color: #19B5FE;
+  border: 1px solid #19B5FE;
   color: $white;
   cursor: pointer;
 
   &:hover {
-    background-color: $primary-hover;
-    border-color: $primary-hover;
+    background-color: #1395d1;
+    border-color: #1395d1;
   }
 
   &-wide {

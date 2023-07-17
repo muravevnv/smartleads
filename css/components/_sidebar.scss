@@ -70,17 +70,44 @@
     display: flex;
     justify-content: space-between;
     margin-right: 16px;
-    background-color: #333e52;
+    background-color: #19B5FE !important;
     border-radius: 4px;
     flex-shrink: 0;
     cursor: pointer;
 
+    @include media(md) {
+      display: none;
+    }
+
     span {
       display: block;
       width: 100%;
-      height: 2px;
+      height: 3px;
       background-color: #FFF;
       transition: .3s;
+    }
+
+    span {
+      display: none;
+      transform: .3s;
+
+      &:first-child {
+        display: block;
+        width: 14px;
+        position: absolute;
+        transform: rotate(-35deg);
+        top: 11px;
+        left: 9px;
+      }
+
+      &:last-child {
+        display: block;
+        width: 14px;
+        position: absolute;
+        transform: rotate(35deg);
+        bottom: 11px;
+        left: 9px;
+      }
     }
 
     &.open {
@@ -93,7 +120,7 @@
           display: block;
           width: 14px;
           position: absolute;
-          transform: rotate(-35deg);
+          transform: rotate(35deg);
           top: 11px;
           left: 7px;
         }
@@ -102,7 +129,7 @@
           display: block;
           width: 14px;
           position: absolute;
-          transform: rotate(35deg);
+          transform: rotate(-35deg);
           bottom: 11px;
           left: 7px;
         }
@@ -158,9 +185,30 @@
     display: block;
     color: #FFF;
     padding: 10px 5px;
-    font-size: 14px;
+    font-size: 16px;
     padding-left: 55px;
     margin: 0;
+    position: relative;
+
+    &::before {
+      position: absolute;
+      content: '';
+      width: 5px;
+      height: 5px;
+      background-color: #eb525d;
+      border-radius: 50%;
+      left: 35px;
+      top: 17px;
+      opacity: 0;
+    }
+
+    &.active {
+      position: relative;
+
+      &::before {
+        opacity: 1;
+      }
+    }
   }
 }
 

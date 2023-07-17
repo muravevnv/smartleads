@@ -42,7 +42,7 @@
 
   tr {
     &:hover {
-      background-color: #ced1d4;
+      background-color: rgba(0,0,0,.075);
     }
   }
 
@@ -57,5 +57,9 @@
     vertical-align: top;
     border-top: 1px solid #dee2e6;
     font-weight: 400;
+  }
+
+  .edit {
+    text-align: right;
   }
 }

@@ -12,7 +12,19 @@
 
    > a {
     position: relative;
-  
+    
+    &::before {
+      background: #eb525d;
+      border-radius: 10px;
+      color: #fff;
+      content: " ";
+      height: 30px;
+      left: 0;
+      top: 12px;
+      position: absolute;
+      width: 3px;
+      opacity: 0;
+    }
 
     &::after {
       position: absolute;
@@ -29,6 +41,11 @@
 
    &.open {
     > a {
+
+      &::before {
+        opacity: 1;
+      }
+
       &::after {
         transform: translateY(-50%) rotate(90deg);
         transition: .3s;

@@ -44,6 +44,14 @@
   white-space: nowrap;
   background-color: transparent;
   border: 0;
+  display: flex;
+  align-items: center;
+
+  svg {
+    display: block;
+    margin-right: 12px;
+    flex-shrink: 0;
+  }
 
   &:hover, 
   &:focus {
