@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;500;600;700&display=swap");
 :root {
   --black: #111119;
   --dark: #1C1C27;
@@ -46,7 +46,7 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Jost", Arial, Helvetica, sans-serif;
+  font-family: "Nunito Sans", sans-serif;
   font-weight: 400;
   min-height: 100vh;
   display: flex;
