@@ -66,9 +66,18 @@
     height: 32px;
     padding: 7px;
     margin-right: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
-    svg {
+    i {
+      color: #bcc8d8;
       display: block;
+      width: 25px;
+      height: 25px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
   }
 

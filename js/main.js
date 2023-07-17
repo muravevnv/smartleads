@@ -52,3 +52,5 @@ $('.modal-overlay').on('click', function(){
   $('modal-overlay').fadeOut();
   $('.modal').fadeOut();
 });
+
+new AirDatepicker('.input-date');

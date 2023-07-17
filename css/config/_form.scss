@@ -23,7 +23,7 @@
 .form-subtitle {
 
   span {
-    color: $primary;
+    padding-right: 10px;
   }
 }
 
@@ -75,4 +75,13 @@ label {
 
 textarea {
   max-width: 100%;
+}
+
+.input-date {
+  background-color: transparent;
+  border: 0px;
+  outline: none;
+  display: inline-block;
+  font-size: 16px;
+  color: $primary;
 }

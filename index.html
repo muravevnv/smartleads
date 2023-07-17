@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.2.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/air-datepicker.css">
     <link rel="stylesheet" href="css/main.css" />
     <title>CRM</title>
   </head>
@@ -48,7 +50,7 @@
           <div class="nav-item has-sub">
             <a href="javascript:void(0)">
               <span class="nav-item__icon">
-                <i class="fa fa-tag" aria-hidden="true"></i>
+                <i class="bi bi-bar-chart"></i>
               </span>
               <span class="nav-item__name">Бот Телеграмм</span>
             </a>
@@ -63,7 +65,7 @@
           <div class="nav-item has-sub">
             <a href="javascript:void(0)">
               <span class="nav-item__icon">
-                <i class="fa fa-gear" aria-hidden="true"></i>
+                <i class="bi bi-columns-gap"></i>
               </span>
               <span class="nav-item__name">Бот Вконтакте</span>
             </a>
@@ -78,7 +80,7 @@
           <div class="nav-item">
             <a href="/">
               <span class="nav-item__icon">
-                <i class="fa fa-bar-chart" aria-hidden="true"></i>
+                <i class="bi bi-box-seam"></i>
               </span>
               <span class="nav-item__name">Название раздела</span>
             </a>
@@ -128,7 +130,8 @@
           <div class="form-head">
             <div class="form-title">Создание рассылки</div>
             <div class="form-subtitle">
-              Дата запуска <span>31.01.2023 17:28</span>
+              <span>Дата запуска </span>
+              <input type="text" class="input-date" value="02.12.2023" readonly>
             </div>
           </div>
           <form class="form">
@@ -154,6 +157,7 @@
       </div>
       </div>
     <script src="js/jquery.min.js"></script>
+    <script src="js/air-datepicker.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
