@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>CRM</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="dropdown profile">
+          <a class="dropdown-toggle profile__img">
+            <img class="avatar" src="../images/user.jpg" alt="">
+          </a>
+          <div class="dropdown-menu dropdown-menu-right">
+              <a class="dropdown-item" href="">Профиль</a>
+              <a class="dropdown-item" href="login.html">Выход</a>
+          </div>
+      </div>
+      </div>
+    </header>
+    <div class="page-wrap">
+      <div class="sidebar">
+        <div class="sidebar-head">
+          <div class="sidebar-toggler">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <a href="" class="sidebar__logo">Logo</a>
+          <div class="sidebar-close"></div>
+        </div>
+        <div class="nav-content">
+          <div class="nav-title">Раздел</div>
+          <div class="nav-item has-sub">
+            <a href="javascript:void(0)">
+              <span class="nav-item__icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 16 14"
+                  fill="none"
+                >
+                  <path
+                    d="M0 1C0 0.447716 0.447715 0 1 0H15C15.5523 0 16 0.447715 16 1V13C16 13.5523 15.5523 14 15 14H1C0.447715 14 0 13.5523 0 13V1ZM8.5 1V9H15V1H8.5ZM8.5 10V13H15V10H8.5ZM7.5 1H1V4H7.5V1ZM1 13H7.5V5H1V13Z"
+                    fill="white"
+                  />
+                </svg>
+              </span>
+              <span class="nav-item__name">Бот Телеграмм</span>
+            </a>
+            <div class="submenu">
+              <a href="statistic.html" class="submenu-item">Статистика</a>
+              <a href="mailing.html" class="submenu-item">Создать рассылку</a>
+              <a href="table.html" class="submenu-item">Список рассылок</a>
+              <a href="constants.html" class="submenu-item">Константы</a>
+              <a href="offers.html" class="submenu-item">Офера</a>
+            </div>
+          </div>
+          <div class="nav-item has-sub">
+            <a href="javascript:void(0)">
+              <span class="nav-item__icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 16 14"
+                  fill="none"
+                >
+                  <path
+                    d="M0 1C0 0.447716 0.447715 0 1 0H15C15.5523 0 16 0.447715 16 1V13C16 13.5523 15.5523 14 15 14H1C0.447715 14 0 13.5523 0 13V1ZM8.5 1V9H15V1H8.5ZM8.5 10V13H15V10H8.5ZM7.5 1H1V4H7.5V1ZM1 13H7.5V5H1V13Z"
+                    fill="white"
+                  />
+                </svg>
+              </span>
+              <span class="nav-item__name">Бот Вконтакте</span>
+            </a>
+            <div class="submenu">
+              <a href="statistic.html" class="submenu-item">Статистика</a>
+              <a href="mailing.html" class="submenu-item">Создать рассылку</a>
+              <a href="table.html" class="submenu-item">Список рассылок</a>
+              <a href="constants.html" class="submenu-item">Константы</a>
+              <a href="offers.html" class="submenu-item">Офера</a>
+            </div>
+          </div>
+          <div class="nav-item">
+            <a href="/">
+              <span class="nav-item__icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 16 14"
+                  fill="none"
+                >
+                  <path
+                    d="M0 1C0 0.447716 0.447715 0 1 0H15C15.5523 0 16 0.447715 16 1V13C16 13.5523 15.5523 14 15 14H1C0.447715 14 0 13.5523 0 13V1ZM8.5 1V9H15V1H8.5ZM8.5 10V13H15V10H8.5ZM7.5 1H1V4H7.5V1ZM1 13H7.5V5H1V13Z"
+                    fill="white"
+                  />
+                </svg>
+              </span>
+              <span class="nav-item__name">Название раздела</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="main-content">
+        <div class="table">
+          <div class="table-head">
+            <div class="table-name">Офферы</div>
+            <div class="table-add btn btn-border">Добавить</div>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>id</th>
+                  <th>Название</th>
+                  <th>ИНН</th>
+                  <th class="edit">Ред.</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>ООО «Ромашка»</td>
+                  <td>123456789</td>
+                  <td class="edit js-open-modal" data-modal="1">
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="16" x="0" y="0" viewBox="0 0 477.873 477.873" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M392.533 238.937c-9.426 0-17.067 7.641-17.067 17.067V426.67c0 9.426-7.641 17.067-17.067 17.067H51.2c-9.426 0-17.067-7.641-17.067-17.067V85.337c0-9.426 7.641-17.067 17.067-17.067H256c9.426 0 17.067-7.641 17.067-17.067S265.426 34.137 256 34.137H51.2C22.923 34.137 0 57.06 0 85.337V426.67c0 28.277 22.923 51.2 51.2 51.2h307.2c28.277 0 51.2-22.923 51.2-51.2V256.003c0-9.425-7.641-17.066-17.067-17.066z" fill="#19B5FE"data-original="#000000" class=""></path><path d="M458.742 19.142A65.328 65.328 0 0 0 412.536.004a64.85 64.85 0 0 0-46.199 19.149L141.534 243.937a17.254 17.254 0 0 0-4.113 6.673l-34.133 102.4c-2.979 8.943 1.856 18.607 10.799 21.585 1.735.578 3.552.873 5.38.875a17.336 17.336 0 0 0 5.393-.87l102.4-34.133c2.515-.84 4.8-2.254 6.673-4.13l224.802-224.802c25.515-25.512 25.518-66.878.007-92.393zm-24.139 68.277L212.736 309.286l-66.287 22.135 22.067-66.202L390.468 43.353c12.202-12.178 31.967-12.158 44.145.044a31.215 31.215 0 0 1 9.12 21.955 31.043 31.043 0 0 1-9.13 22.067z" fill="#19B5FE"data-original="#000000" class=""></path></g></svg>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">2</th>
+                  <td>ООО «Ромашка»</td>
+                  <td>123456789</td>
+                  <td class="edit js-open-modal" data-modal="1">
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="16" x="0" y="0" viewBox="0 0 477.873 477.873" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M392.533 238.937c-9.426 0-17.067 7.641-17.067 17.067V426.67c0 9.426-7.641 17.067-17.067 17.067H51.2c-9.426 0-17.067-7.641-17.067-17.067V85.337c0-9.426 7.641-17.067 17.067-17.067H256c9.426 0 17.067-7.641 17.067-17.067S265.426 34.137 256 34.137H51.2C22.923 34.137 0 57.06 0 85.337V426.67c0 28.277 22.923 51.2 51.2 51.2h307.2c28.277 0 51.2-22.923 51.2-51.2V256.003c0-9.425-7.641-17.066-17.067-17.066z" fill="#19B5FE"data-original="#000000" class=""></path><path d="M458.742 19.142A65.328 65.328 0 0 0 412.536.004a64.85 64.85 0 0 0-46.199 19.149L141.534 243.937a17.254 17.254 0 0 0-4.113 6.673l-34.133 102.4c-2.979 8.943 1.856 18.607 10.799 21.585 1.735.578 3.552.873 5.38.875a17.336 17.336 0 0 0 5.393-.87l102.4-34.133c2.515-.84 4.8-2.254 6.673-4.13l224.802-224.802c25.515-25.512 25.518-66.878.007-92.393zm-24.139 68.277L212.736 309.286l-66.287 22.135 22.067-66.202L390.468 43.353c12.202-12.178 31.967-12.158 44.145.044a31.215 31.215 0 0 1 9.12 21.955 31.043 31.043 0 0 1-9.13 22.067z" fill="#19B5FE"data-original="#000000" class=""></path></g></svg>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row">3</th>
+                  <td>ООО «Ромашка»</td>
+                  <td>123456789</td>
+                  <td class="edit js-open-modal" data-modal="1">
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" width="16" height="16" x="0" y="0" viewBox="0 0 477.873 477.873" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g><path d="M392.533 238.937c-9.426 0-17.067 7.641-17.067 17.067V426.67c0 9.426-7.641 17.067-17.067 17.067H51.2c-9.426 0-17.067-7.641-17.067-17.067V85.337c0-9.426 7.641-17.067 17.067-17.067H256c9.426 0 17.067-7.641 17.067-17.067S265.426 34.137 256 34.137H51.2C22.923 34.137 0 57.06 0 85.337V426.67c0 28.277 22.923 51.2 51.2 51.2h307.2c28.277 0 51.2-22.923 51.2-51.2V256.003c0-9.425-7.641-17.066-17.067-17.066z" fill="#19B5FE"data-original="#000000" class=""></path><path d="M458.742 19.142A65.328 65.328 0 0 0 412.536.004a64.85 64.85 0 0 0-46.199 19.149L141.534 243.937a17.254 17.254 0 0 0-4.113 6.673l-34.133 102.4c-2.979 8.943 1.856 18.607 10.799 21.585 1.735.578 3.552.873 5.38.875a17.336 17.336 0 0 0 5.393-.87l102.4-34.133c2.515-.84 4.8-2.254 6.673-4.13l224.802-224.802c25.515-25.512 25.518-66.878.007-92.393zm-24.139 68.277L212.736 309.286l-66.287 22.135 22.067-66.202L390.468 43.353c12.202-12.178 31.967-12.158 44.145.044a31.215 31.215 0 0 1 9.12 21.955 31.043 31.043 0 0 1-9.13 22.067z" fill="#19B5FE"data-original="#000000" class=""></path></g></svg>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="table-pagination pagination">
+          <div class="pagination-item pagination-prev"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiPaginationItem-icon css-lrb33l" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="NavigateNextIcon"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg></div>
+          <div class="pagination-item active">1</div>
+          <div class="pagination-item">2</div>
+          <div class="pagination-item">3</div>
+          <div class="pagination-item pagination-next"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiPaginationItem-icon css-lrb33l" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="NavigateNextIcon"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg></div>
+        </div>
+      </div>
+      <div class="modal" data-modal="1">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+          <div class="modal-head">
+              <h5 class="modal-title">Заголовок</h5>
+              <button type="button" class="modal-close">
+                  <span >×</span>
+              </button>
+          </div>
+          <div class="modal-body">
+            <form class="form">
+              <div class="form-group">
+                <label for="group-1">Название оффера на сайте</label>
+                <input type="text" class="form-control" id="group-1" placeholder="Название">
+              </div>
+              <div class="form-group">
+                <label for="group-1">Оценка оффера</label>
+                <input type="text" class="form-control" id="group-1" placeholder="Время выполнения">
+              </div>
+              <div class="form-group">
+                <label for="group-1">Сумма займа от</label>
+                <input type="text" class="form-control" id="group-1" placeholder="Время выполнения">
+              </div>
+              <div class="form-group">
+                <label for="group-1">Сумма займа до</label>
+                <input type="text" class="form-control" id="group-1" placeholder="Время выполнения">
+              </div>
+              <div class="form-group">
+                <label for="group-1">Срок займа от</label>
+                <input type="text" class="form-control" id="group-1" placeholder="Время выполнения">
+              </div>
+              <div class="form-group">
+                <label for="group-1">Срок займа до</label>
+                <input type="text" class="form-control" id="group-1" placeholder="Время выполнения">
+              </div>
+              <div class="form-group">
+                <label for="group-1">Процент одобрения</label>
+                <input type="text" class="form-control" id="group-1" placeholder="Время выполнения">
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+              <button type="button" class="btn">Сохранить</button>
+              <button type="button" class="btn btn-outline" data-dismiss="modal">Закрыть</button>
+          </div>
+        </div>
+      </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

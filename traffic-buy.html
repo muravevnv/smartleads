@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>CRM</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header-burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="dropdown profile">
+          <a class="dropdown-toggle profile__img">
+            <img class="avatar" src="../images/user.jpg" alt="">
+          </a>
+          <div class="dropdown-menu dropdown-menu-right">
+              <a class="dropdown-item" href="">Профиль</a>
+              <a class="dropdown-item" href="login.html">Выход</a>
+          </div>
+      </div>
+      </div>
+    </header>
+    <div class="page-wrap">
+      <div class="sidebar">
+        <div class="sidebar-head">
+          <div class="sidebar-toggler">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <a href="" class="sidebar__logo">Logo</a>
+          <div class="sidebar-close"></div>
+        </div>
+        <div class="nav-content">
+          <div class="nav-title">Раздел</div>
+          <div class="nav-item has-sub">
+            <a href="javascript:void(0)">
+              <span class="nav-item__icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 16 14"
+                  fill="none"
+                >
+                  <path
+                    d="M0 1C0 0.447716 0.447715 0 1 0H15C15.5523 0 16 0.447715 16 1V13C16 13.5523 15.5523 14 15 14H1C0.447715 14 0 13.5523 0 13V1ZM8.5 1V9H15V1H8.5ZM8.5 10V13H15V10H8.5ZM7.5 1H1V4H7.5V1ZM1 13H7.5V5H1V13Z"
+                    fill="white"
+                  />
+                </svg>
+              </span>
+              <span class="nav-item__name">Бот Телеграмм</span>
+            </a>
+            <div class="submenu">
+              <a href="statistic.html" class="submenu-item">Статистика</a>
+              <a href="mailing.html" class="submenu-item">Создать рассылку</a>
+              <a href="table.html" class="submenu-item">Список рассылок</a>
+              <a href="constants.html" class="submenu-item">Константы</a>
+              <a href="offers.html" class="submenu-item">Офера</a>
+            </div>
+          </div>
+          <div class="nav-item has-sub">
+            <a href="javascript:void(0)">
+              <span class="nav-item__icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 16 14"
+                  fill="none"
+                >
+                  <path
+                    d="M0 1C0 0.447716 0.447715 0 1 0H15C15.5523 0 16 0.447715 16 1V13C16 13.5523 15.5523 14 15 14H1C0.447715 14 0 13.5523 0 13V1ZM8.5 1V9H15V1H8.5ZM8.5 10V13H15V10H8.5ZM7.5 1H1V4H7.5V1ZM1 13H7.5V5H1V13Z"
+                    fill="white"
+                  />
+                </svg>
+              </span>
+              <span class="nav-item__name">Бот Вконтакте</span>
+            </a>
+            <div class="submenu">
+              <a href="statistic.html" class="submenu-item">Статистика</a>
+              <a href="mailing.html" class="submenu-item">Создать рассылку</a>
+              <a href="table.html" class="submenu-item">Список рассылок</a>
+              <a href="constants.html" class="submenu-item">Константы</a>
+              <a href="offers.html" class="submenu-item">Офера</a>
+            </div>
+          </div>
+          <div class="nav-item">
+            <a href="/">
+              <span class="nav-item__icon">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 16 14"
+                  fill="none"
+                >
+                  <path
+                    d="M0 1C0 0.447716 0.447715 0 1 0H15C15.5523 0 16 0.447715 16 1V13C16 13.5523 15.5523 14 15 14H1C0.447715 14 0 13.5523 0 13V1ZM8.5 1V9H15V1H8.5ZM8.5 10V13H15V10H8.5ZM7.5 1H1V4H7.5V1ZM1 13H7.5V5H1V13Z"
+                    fill="white"
+                  />
+                </svg>
+              </span>
+              <span class="nav-item__name">Название раздела</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="main-content">
+        <div class="table">
+          <div class="table-head">
+            <div class="table-name">Офферы</div>
+            <div class="table-add btn btn-border">Добавить</div>
+          </div>
+          <div class="table-tabs">
+            <div class="table-tabs__item is-active">Клики</div>
+            <div class="table-tabs__item">Площадки</div>
+          </div>
+          <div class="table-panel">
+            <div class="table-period">
+              Период:
+              <span>05.08.2023 - 06.08.2023</span>
+            </div>
+            <div class="table-timezone">
+              Временная зона:
+              <span>(GMT +03:00 Europe/Moscow)</span>
+            </div>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>
+                    <div class="table-cell-flex">
+                      <div class="table-cell-info">
+                        <div class="table-cell-info__icon">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="17" viewBox="0 0 16 17" fill="none">
+                            <g clip-path="url(#clip0_25_71)">
+                            <path d="M8 0.5C3.57863 0.5 0 4.078 0 8.5C0 12.9214 3.578 16.5 8 16.5C12.4214 16.5 16 12.922 16 8.5C16 4.07863 12.422 0.5 8 0.5ZM8 15.25C4.26941 15.25 1.25 12.2309 1.25 8.5C1.25 4.76941 4.26906 1.75 8 1.75C11.7306 1.75 14.75 4.76906 14.75 8.5C14.75 12.2306 11.7309 15.25 8 15.25ZM9.85413 12.1875C9.85413 12.5327 9.57434 12.8125 9.22913 12.8125H6.77087C6.42566 12.8125 6.14587 12.5327 6.14587 12.1875C6.14587 11.8423 6.42566 11.5625 6.77087 11.5625H7.375V7.89587H6.77087C6.42566 7.89587 6.14587 7.61609 6.14587 7.27087C6.14587 6.92566 6.42566 6.64587 6.77087 6.64587H8C8.34522 6.64587 8.625 6.92566 8.625 7.27087V11.5625H9.22913C9.57434 11.5625 9.85413 11.8423 9.85413 12.1875ZM7.21875 4.36462C7.21875 3.93309 7.56847 3.58337 8 3.58337C8.43153 3.58337 8.78125 3.93309 8.78125 4.36462C8.78125 4.79603 8.43153 5.14587 8 5.14587C7.56847 5.14587 7.21875 4.79603 7.21875 4.36462Z" fill="#1273EB"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_25_71">
+                            <rect width="16" height="16" fill="white" transform="translate(0 0.5)"/>
+                            </clipPath>
+                            </defs>
+                          </svg>
+                        </div>
+                        <div class="table-cell-info__tooltip">LoremIpsumLoremIpsumLoremIpsum</div>
+                      </div>
+                      <span>Дата</span>
+                    </div>
+                  </th>
+                  <th>Id</th>
+                  <th>Гео/IP</th>
+                  <th>Уникальный</th>
+                  <th>Устройство</th>
+                  <th>Партнёр</th>
+                  <th>Платформа</th>
+                  <th>Расположение</th>
+                  <th>Цена клика</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">
+                    06.08.2023 
+                    <br>
+                    12:23</th>
+                  <td >
+                    <div class="color--blue table-cell-link">
+                      asdasdasdsdasdsdasd
+                    </div>
+                  </td>
+                  <td>
+                    Нижний Новгород 
+                    <br>
+                    192.123.14.12
+                  </td>
+                  <td>
+                    Да
+                  </td>
+                  <td>Android</td>
+                  <td>1-partner</td>
+                  <td>12-site</td>
+                  <td>1234-position(10)</td>
+                  <td>10</td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    06.08.2023 
+                    <br>
+                    12:23</th>
+                  <td >
+                    <div class="color--blue table-cell-link">
+                      asdasdasdsdasdsdasd
+                    </div>
+                  </td>
+                  <td>
+                    Нижний Новгород 
+                    <br>
+                    192.123.14.12
+                  </td>
+                  <td>
+                    Да
+                  </td>
+                  <td>Android</td>
+                  <td>1-partner</td>
+                  <td>12-site</td>
+                  <td>1234-position(10)</td>
+                  <td>10</td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    06.08.2023 
+                    <br>
+                    12:23</th>
+                  <td >
+                    <div class="color--blue table-cell-link">
+                      asdasdasdsdasdsdasd
+                    </div>
+                  </td>
+                  <td>
+                    Нижний Новгород 
+                    <br>
+                    192.123.14.12
+                  </td>
+                  <td>
+                    Да
+                  </td>
+                  <td>Android</td>
+                  <td>1-partner</td>
+                  <td>12-site</td>
+                  <td>1234-position(10)</td>
+                  <td>10</td>
+                </tr>
+                <tr>
+                  <th scope="row">
+                    06.08.2023 
+                    <br>
+                    12:23</th>
+                  <td >
+                    <div class="color--blue table-cell-link">
+                      asdasdasdsdasdsdasd
+                    </div>
+                  </td>
+                  <td>
+                    Нижний Новгород 
+                    <br>
+                    192.123.14.12
+                  </td>
+                  <td>
+                    Да
+                  </td>
+                  <td>Android</td>
+                  <td>1-partner</td>
+                  <td>12-site</td>
+                  <td>1234-position(10)</td>
+                  <td>10</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="table">
+          <div class="table-head">
+            <div class="table-name">Покупка трафика</div>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>
+                    Показы
+                  </th>
+                  <th>
+                    Хосты
+                  </th>
+                  <th>
+                    Клики
+                  </th>
+                  <th>
+                    CTR
+                  </th>
+                  <th>
+                    Средняя ставка
+                  </th>
+                  <th>
+                    Бюджет
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1000</td>
+                  <td>150</td>
+                  <td>120</td>
+                  <td>12%</td>
+                  <td>25</td>
+                  <td>12 000 ₽</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+        <div class="table-pagination pagination">
+          <div class="pagination-item pagination-prev"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiPaginationItem-icon css-lrb33l" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="NavigateNextIcon"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg></div>
+          <div class="pagination-item active">1</div>
+          <div class="pagination-item">2</div>
+          <div class="pagination-item">3</div>
+          <div class="pagination-item pagination-next"><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium MuiPaginationItem-icon css-lrb33l" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="NavigateNextIcon"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg></div>
+        </div>
+      </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

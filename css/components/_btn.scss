@@ -37,4 +37,17 @@
       color: $white;
     }
   }
+
+  &-border {
+    border: 1px solid #1395d1;
+    background: transparent;
+    color: #1395d1;
+    padding: 11px 50px;
+    border-radius: 10px;
+
+    &:hover {
+      background-color: #1395d1;
+      color: #FFF;
+    }
+  }
 }
